@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:layout_marginVertical="4dp">
+
+    <!-- Icono de carpeta -->
+    <ImageView
+        android:id="@+id/iconocarpeta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_carpetacolor"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Nombre de la carpeta -->
+    <TextView
+        android:id="@+id/nombrecarpeta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nombre de la carpeta"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Botón de opciones -->
+    <ImageButton
+        android:id="@+id/btnopciones"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_more"
+        android:contentDescription="Opciones" />
+</LinearLayout>

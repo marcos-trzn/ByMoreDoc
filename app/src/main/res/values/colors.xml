@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colores principales -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Azul medio -->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color> <!-- Rosa acento -->
+
+    <!-- Fondo y texto -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Gris claro -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Botones -->
+    <color name="buttonNormal">#3F51B5</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <!-- Estados -->
+    <color name="successGreen">#4CAF50</color>
+    <color name="errorRed">#F44336</color>
+    <color name="warningOrange">#FF9800</color>
+
+    <!-- Otros -->
+    <color name="divider">#BDBDBD</color>
+    <color name="favoriteYellow">#FFD700</color> <!-- Para estrellas o favoritos -->
+
+</resources>

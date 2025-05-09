@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_renombrar"
+        android:title="Renombrar" />
+    <item
+        android:id="@+id/menu_mover"
+        android:title="Mover carpeta" />
+    <item
+        android:id="@+id/menu_eliminar"
+        android:title="Eliminar" />
+</menu>

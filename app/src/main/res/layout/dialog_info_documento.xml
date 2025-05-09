@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/info_nombre"
+        style="@style/InfoCampo" />
+
+    <TextView
+        android:id="@+id/info_tamano"
+        style="@style/InfoCampo" />
+
+    <TextView
+        android:id="@+id/info_fecha"
+        style="@style/InfoCampo" />
+
+    <TextView
+        android:id="@+id/info_resolucion"
+        style="@style/InfoCampo" />
+
+    <TextView
+        android:id="@+id/info_ubicacion"
+        style="@style/InfoCampo" />
+
+</LinearLayout>
